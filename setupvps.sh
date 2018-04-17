@@ -56,14 +56,11 @@ mkdir -p ~/bin
 echo 'export PATH=~/bin:$PATH' > ~/.bash_aliases
 source ~/.bashrc
 
-git clone https://github.com/teambean/BeanCash
-cd BeanCash/src/leveldb && chmod 777 * && cd .. && make -f makefile.unix
-
 
 echo ""
 echo "**********************************************************************"
 echo ""
-echo "                      This should exit without errors                 "
+echo "                          Cai dat VPS hoan tat                        "
 echo ""
 echo "**********************************************************************"
 echo ""
