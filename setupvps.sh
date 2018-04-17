@@ -3,7 +3,7 @@
 cd ~
 
 echo && echo && echo
-echo "*********************           Cai dat Wallet           ***********************"
+echo "*********************           Cai dat VPS           ***********************"
 echo "*********************  I'm here to help you :) ***********************"
 echo && echo && echo
 
