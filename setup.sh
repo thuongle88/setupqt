@@ -16,7 +16,25 @@ sudo apt-get update
 sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-all-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev tmux
 sudo apt-get install -y libgmp3-dev
 
+
+
+sudo apt-get install qt5-default qt5-qmake qtbase5-dev-tools libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev
+sudo apt-get install autoconf
+sudo apt-get install libboost-all-dev
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+sudo apt-get install libqrencode-dev openssl libevent-dev
+sudo apt-get install libminiupnpc-dev
 sudo apt-get update
+
+cd ~
+wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+tar -xzvf db-4.8.30.NC.tar.gz
+cd db-4.8.30.NC/build_unix/
+../dist/configure --enable-cxx
+sudo make install
+
+
+
 
 cd /var
 sudo touch swap.img
